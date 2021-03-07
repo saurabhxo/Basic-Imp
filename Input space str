@@ -1,0 +1,32 @@
+#include <iostream>
+#include <iomanip>
+#include <limits>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    int n;
+    double d1;
+    string s2;
+    cin>>n;
+    cin>>d1;
+    getline(cin >> ws, s2);
+    n=n+i;
+    cout<<n<<endl;
+    d=d+d1;
+    cout<<fixed<<setprecision(1)<<d<<endl;
+    cout<<s+s2;
+
+    return 0;
+}
+Input
+12
+4.0
+is the best place to learn and practice coding!
+Output
+16
+8.0
+HackerRank is the best place to learn and practice coding!
